@@ -16,10 +16,13 @@ spec = Gem::Specification.new do |s|
   s.add_dependency('rest-client', '~> 1.4')
   s.add_dependency('json', '~> 1.8.1')
 
+  s.add_development_dependency('committee', '~> 1.12.0')
   s.add_development_dependency('mocha', '~> 0.13.2')
   s.add_development_dependency('shoulda', '~> 3.4.0')
   s.add_development_dependency('test-unit')
   s.add_development_dependency('rake')
+  s.add_development_dependency('sinatra')
+  s.add_development_dependency('webmock')
 
   # to avoid problems, bring Byebug in on just versions of Ruby under which
   # it's known to work well
