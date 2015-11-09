@@ -160,3 +160,5 @@ class Test::Unit::TestCase
     $execute_request_stub = old
   end
 end
+
+Stripe.enable_legacy_stubs!
